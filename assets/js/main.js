@@ -3,12 +3,12 @@ let navbar = document.querySelector(".navbar");
 let searchBox = document.querySelector(".search-box .bx-search");
 // let searchBoxCancel = document.querySelector(".search-box .bx-x");
 
-searchBox.addEventListener("click", ()=>{
+searchBox.addEventListener("click", () => {
   navbar.classList.toggle("showInput");
-  if(navbar.classList.contains("showInput")){
-    searchBox.classList.replace("bx-search" ,"bx-x");
-  }else {
-    searchBox.classList.replace("bx-x" ,"bx-search");
+  if (navbar.classList.contains("showInput")) {
+    searchBox.classList.replace("bx-search", "bx-x");
+  } else {
+    searchBox.classList.replace("bx-x", "bx-search");
   }
 });
 
@@ -40,3 +40,10 @@ jsArrow.onclick = function() {
 
 let navMenu = document.querySelector('.link')
 console.log(navMenu)
+
+menuOpenBtn.onclick = function () {
+  navLinks.style.left = "0";
+};
+menuCloseBtn.onclick = function () {
+  navLinks.style.left = "-100%";
+};
