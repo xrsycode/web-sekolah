@@ -360,9 +360,11 @@ nav .navbar .links li:hover .js-sub-menu {
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
+
 .hero-left {
   margin-right: 20%;
 }
+
 .hero-name {
   font-size: 4rem;
   font-weight: 700;
@@ -374,5 +376,5 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .hero-name span {
-  color: #b30000;
+  color: #e00000;
 }

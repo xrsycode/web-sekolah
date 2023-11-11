@@ -25,6 +25,7 @@ navLinks.style.left = "-100%";
 
 // sidebar submenu open close js code
 let htmlcssArrow = document.querySelector(".htmlcss-arrow");
+console.log(htmlcssArrow)
 htmlcssArrow.onclick = function() {
  navLinks.classList.toggle("show1");
 }
@@ -36,3 +37,6 @@ let jsArrow = document.querySelector(".js-arrow");
 jsArrow.onclick = function() {
  navLinks.classList.toggle("show3");
 }
+
+let navMenu = document.querySelector('.link')
+console.log(navMenu)
