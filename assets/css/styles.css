@@ -330,19 +330,21 @@ nav .navbar .links li:hover .js-sub-menu {
     display: none;
   }
 
-  .navbar .nav-links.show1 .links .htmlCss-sub-menu,
-  .navbar .nav-links.show3 .links .js-sub-menu,
-  .navbar .nav-links.show2 .links .more .more-sub-menu {
+  .navbar .nav-links .links .htmlCss-sub-menu.show1,
+  .navbar .nav-links .links .js-sub-menu.show3,
+  .navbar .nav-links .links .more .more-sub-menu.show2 {
     display: block;
   }
 
-  .navbar .nav-links.show1 .links .htmlcss-arrow,
-  .navbar .nav-links.show3 .links .js-arrow {
+  .navbar .nav-links .links .htmlcss-arrow.show1,
+  .navbar .nav-links .links .js-arrow.show3 {
     transform: rotate(180deg);
   }
 
-  .navbar .nav-links.show2 .links .more-arrow {
-    transform: rotate(90deg);
+  .navbar .nav-links .links .navli .more ul.sub-menu {
+    width: 250%;
+    background: #fff;
+    border-radius: 5px;
   }
 }
 
