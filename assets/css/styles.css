@@ -357,8 +357,20 @@ nav .navbar .links li:hover .js-sub-menu {
 #hero {
   right: 750px;
   left: 100px;
-  margin-right: 10px;
-  display: grid;
+  padding: 20vh;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.hero-name {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: .5rem 0 1rem;
+}
+
+.hero .deskripsi {
+  width: 120px;
 }
 
 .hero-name span {
