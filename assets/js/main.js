@@ -3,12 +3,12 @@ let navbar = document.querySelector(".navbar");
 let searchBox = document.querySelector(".search-box .bx-search");
 // let searchBoxCancel = document.querySelector(".search-box .bx-x");
 
-searchBox.addEventListener("click", () => {
+searchBox.addEventListener("click", ()=>{
   navbar.classList.toggle("showInput");
-  if (navbar.classList.contains("showInput")) {
-    searchBox.classList.replace("bx-search", "bx-x");
-  } else {
-    searchBox.classList.replace("bx-x", "bx-search");
+  if(navbar.classList.contains("showInput")){
+    searchBox.classList.replace("bx-search" ,"bx-x");
+  }else {
+    searchBox.classList.replace("bx-x" ,"bx-search");
   }
 });
 
@@ -25,9 +25,9 @@ navLinks.style.left = "-100%";
 
 // sidebar submenu open close js code
 let htmlcssArrow = document.querySelector(".htmlcss-arrow");
-console.log(htmlcssArrow)
 htmlcssArrow.onclick = function() {
  navLinks.classList.toggle("show1");
+ console.log(navLinks)
 }
 let moreArrow = document.querySelector(".more-arrow");
 moreArrow.onclick = function() {
@@ -38,12 +38,5 @@ jsArrow.onclick = function() {
  navLinks.classList.toggle("show3");
 }
 
-let navMenu = document.querySelector('.link')
-console.log(navMenu)
-
-menuOpenBtn.onclick = function () {
-  navLinks.style.left = "0";
-};
-menuCloseBtn.onclick = function () {
-  navLinks.style.left = "-100%";
-};
+let navLink = document.querySelector(".links");
+console.log(navLink)
