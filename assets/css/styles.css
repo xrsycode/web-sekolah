@@ -79,13 +79,8 @@ nav .navbar .links li a:hover {
   font-weight: 500;
 }
 
-.links li:hover .htmlcss-arrow,
-.links li:hover .js-arrow {
-  transform: rotate(180deg);
-}
-
 nav .navbar .links li .arrow {
-  /* background: red; */
+  background: red;
   height: 100%;
   width: 22px;
   line-height: 70px;
@@ -274,19 +269,13 @@ nav .navbar .links li:hover .js-sub-menu {
     margin-top: 20px;
   }
 
-  nav .navbar .links li .arrow {
-    line-height: 40px;
-  }
-
   nav .navbar .links li {
     display: block;
   }
 
   nav .navbar .links li .sub-menu {
-    position: relative;
     top: 0;
     box-shadow: none;
-    display: none;
   }
 
   nav .navbar .links li .sub-menu li {
@@ -305,13 +294,7 @@ nav .navbar .links li:hover .js-sub-menu {
     justify-content: space-between;
   }
 
-  .links li:hover .htmlcss-arrow,
-  .links li:hover .js-arrow {
-    transform: rotate(0deg);
-  }
-
   .navbar .links li .sub-menu .more-sub-menu {
-    display: none;
   }
 
   .navbar .links li .sub-menu .more span {
@@ -322,27 +305,10 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 
   .links li .sub-menu .more:hover .more-sub-menu {
-    display: none;
   }
 
   nav .navbar .links li:hover .htmlCss-sub-menu,
   nav .navbar .links li:hover .js-sub-menu {
-    display: none;
-  }
-
-  .navbar .nav-links.show1 .links .htmlCss-sub-menu,
-  .navbar .nav-links.show3 .links .js-sub-menu,
-  .navbar .nav-links.show2 .links .more .more-sub-menu {
-    display: block;
-  }
-
-  .navbar .nav-links.show1 .links .htmlcss-arrow,
-  .navbar .nav-links.show3 .links .js-arrow {
-    transform: rotate(180deg);
-  }
-
-  .navbar .nav-links.show2 .links .more-arrow {
-    transform: rotate(90deg);
   }
 }
 
