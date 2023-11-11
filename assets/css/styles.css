@@ -1,11 +1,11 @@
 /* Googlefont Poppins CDN Link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -180,7 +180,7 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .search-box .input-box::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 20px;
   width: 20px;
@@ -212,7 +212,7 @@ nav .navbar .links li:hover .js-sub-menu {
   display: none;
 }
 
-@media (max-width:920px) {
+@media (max-width: 920px) {
   nav .navbar {
     max-width: 100%;
     padding: 0 25px;
@@ -232,8 +232,7 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 }
 
-@media (max-width:800px) {
-
+@media (max-width: 800px) {
   .navbar .bx-menu {
     display: block;
   }
@@ -292,7 +291,6 @@ nav .navbar .links li:hover .js-sub-menu {
 
   nav .navbar .links li .sub-menu li {
     border-bottom: none;
-
   }
 
   .navbar .links li .sub-menu .more-sub-menu {
@@ -348,7 +346,7 @@ nav .navbar .links li:hover .js-sub-menu {
   }
 }
 
-@media (max-width:370px) {
+@media (max-width: 370px) {
   nav .navbar .nav-links {
     max-width: 100%;
   }
@@ -362,11 +360,13 @@ nav .navbar .links li:hover .js-sub-menu {
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
-
+.hero-left {
+  margin-right: 20%;
+}
 .hero-name {
   font-size: 4rem;
   font-weight: 700;
-  margin: .5rem 0 1rem;
+  margin: 0.5rem 0 1rem;
 }
 
 .hero .deskripsi {
